@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#infinit loop
+for ((i = 0; i < 10;))
+do
+echo To infinity and beyond
+sleep 2
+trap 'echo I am invincible!!!' SIGTERM
+done
+© 2022 GitHub, I

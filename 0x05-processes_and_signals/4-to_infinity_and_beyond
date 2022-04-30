@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# to infinity and beyond
+for (( c=1;; c++ ))
+do  
+   echo "To infinity and beyond"
+   sleep 2
+done
